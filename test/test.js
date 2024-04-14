@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 const notes = [{
     noteId: 1,
-    noteContent: "Hey guys, add your important notes here."
+    noteContent: "Hello, add your important notes here."
 }];
 
 app.get("/", (req, res) => {
